@@ -11,6 +11,7 @@ import javax.persistence.*;
 //@Entity
 @Setter
 @AllArgsConstructor
+
 @NoArgsConstructor
 //single table inheritance
 //@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)

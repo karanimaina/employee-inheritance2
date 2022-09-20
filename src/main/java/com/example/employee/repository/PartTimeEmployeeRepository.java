@@ -7,6 +7,4 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 @Repository
 public interface PartTimeEmployeeRepository extends JpaRepository<PartTimeEmployee,Long> {
-
-
 }

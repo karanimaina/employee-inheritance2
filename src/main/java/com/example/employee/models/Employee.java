@@ -12,6 +12,7 @@ import javax.persistence.*;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+
 //single table inheritance
 //@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @MappedSuperclass  //mapped superclass cannot be an entity

@@ -30,6 +30,4 @@ public List<FullTimeEmployee>retrieveFullTimeEmployee(){
         return partTimeEmployeeRepository.findAll();
     }
 
-
-
 }

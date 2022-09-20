@@ -25,6 +25,7 @@ public List<FullTimeEmployee>retrieveFullTimeEmployee(){
     public void insertPart(PartTimeEmployee employee){
         partTimeEmployeeRepository.save(employee);
     }
+
     public List<PartTimeEmployee>retrievePartTimeEmployee(){
         return partTimeEmployeeRepository.findAll();
     }

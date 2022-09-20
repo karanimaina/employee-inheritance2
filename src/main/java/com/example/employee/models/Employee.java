@@ -16,7 +16,6 @@ import javax.persistence.*;
 //@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @MappedSuperclass  //mapped superclass cannot be an entity
 public abstract  class Employee {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;

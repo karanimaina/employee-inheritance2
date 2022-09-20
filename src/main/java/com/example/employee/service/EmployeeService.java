@@ -13,6 +13,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class EmployeeService{
 private final FullTimeRepository fullTimeRepository;
+
 private final PartTimeEmployeeRepository partTimeEmployeeRepository;
 
 

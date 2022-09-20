@@ -14,7 +14,6 @@ public class FullTimeEmployee extends Employee {
     private long salary;
     public FullTimeEmployee(long id, String name, long salary) {
         super(id, name);
-
         this.salary = salary;
     }
 

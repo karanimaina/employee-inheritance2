@@ -15,11 +15,10 @@ public class EmployeeService{
 private final FullTimeRepository fullTimeRepository;
 private final PartTimeEmployeeRepository partTimeEmployeeRepository;
 
-
-
 public void insertFull(FullTimeEmployee employee){
     fullTimeRepository.save(employee);
 }
+
 public List<FullTimeEmployee>retrieveFullTimeEmployee(){
     return fullTimeRepository.findAll();
 }

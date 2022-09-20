@@ -20,6 +20,5 @@ public abstract  class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-
     private String name;
 }
